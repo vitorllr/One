@@ -32,5 +32,5 @@ end
 private
 
 def pack_params
-  params.require(:pack).permit(:name, :description, :price)
+  params.require(:pack).permit(:name, :description, :price, :photos)
 end
