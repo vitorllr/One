@@ -1,3 +1,3 @@
 class Pack < ApplicationRecord
-  validates :name, :description, :price, presence: true
+  validates :name, :description, :price, :photos, presence: true
 end
