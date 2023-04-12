@@ -1,1 +1,10 @@
 <h1>zeto é gay haha</h1>
+<%= @packs.each do |pack| %>
+  <ul>
+    <li>
+      <%=pack.name%>
+      <%= pack.description %>
+      <%= pack.price %>
+    </li>
+  </ul>
+<%end%>
