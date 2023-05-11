@@ -15,7 +15,7 @@ class PacksController < ApplicationController
     @pack = Pack.new(pack_params)
     @pack.save
 
-    redirect_to user_path(@pack)
+    redirect_to pack_path(@pack)
   end
 
   def update
