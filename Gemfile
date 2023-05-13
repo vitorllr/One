@@ -67,3 +67,7 @@ end
 gem "autoprefixer-rails"
 gem "font-awesome-sass", "~> 6.1"
 gem "simple_form"
+
+gem "devise", "~> 4.9"
+
+gem "letter_opener", "~> 1.8"
